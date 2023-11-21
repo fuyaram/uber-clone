@@ -1,0 +1,60 @@
+.containerjayhooo {
+  height: 500px;
+    background-color: rgb(214, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+  }
+  
+  .box3655 {
+    background-color: rgb(255, 255, 255);
+    height: 180px;
+    width: 650px;
+    display: flex;
+    border: 2px solid #000000; /* Border style */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    overflow: hidden; /* Hide overflow content */
+    margin: 10px; /* Adjust margin as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  }
+  #tate{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 30px;
+  }
+  .content {
+    padding: 20px;
+  }
+  
+  .imageio img {
+   max-width: 100%;
+   max-height: fit-content;
+  
+  }
+  
+  .arrow {
+    display: flex;
+    align-items: center;
+    margin: 0 10px; /* Adjust margin as needed */
+  }
+  
+  .arrow i {
+    font-size: 24px; /* Adjust icon size */
+    color: #007bff; /* Adjust icon color */
+  }
+  
+  #nowbtn{
+    margin-top: 10px;
+    border: 2px solid rgb(0, 153, 255);
+    background-color: #23272a;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  #nowbtn:hover{
+    background-color: #ffffff;
+    color: #000;
+  }

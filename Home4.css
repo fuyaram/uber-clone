@@ -1,0 +1,37 @@
+.flex-container56 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+  }
+  
+  .box455 {
+    border: 2px solid #ffffff;
+    padding: 20px;
+    margin: 10px;
+    width: 480px;
+    text-align: center;
+  }
+  
+  .top img {
+    width: 50px; /* Adjust the size as needed */
+  }
+  
+  .center57 #lelok{
+    margin: 0;
+  }
+  
+  .bottom5 .gh {
+    margin-top: 10px;
+    border: 2px solid #3498db;
+    background-color: #23272a;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .bottom5 .gh:hover {
+    background-color: #ffffff;
+    color: #000;
+  }
+  
