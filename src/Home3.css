@@ -1,0 +1,42 @@
+.app {
+    display: flex;
+  }
+  
+  .box {
+    align-items: center;
+    width: 480px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .box.left {
+    order: 1; /* Change the order for left box */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .exbtn{
+    padding: 10px 10px;
+    cursor: pointer;
+ 
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+  }
+  

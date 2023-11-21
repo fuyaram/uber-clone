@@ -1,0 +1,152 @@
+ /* Navbar.css */
+ body{
+  margin: 0%;
+}
+.navbar-container {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+.logo {
+  margin-left: 100px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.menu-item {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icon {
+  margin-right: 5px; 
+  font-size: 20px;/* Add some spacing to the right of the icon */
+}
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 40px;
+  color: #000000;
+  background-color: #ffffff;
+  /*Youcanchangethiscolortoyourpreferredone*/transition: background-color 0.3s ease;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+#help{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 40px;
+  color: #ffffff;
+  /*Youcanchangethiscolortoyourpreferredone*/transition: background-color 0.3s ease;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+#help:hover{
+  background-color: #665d5d;
+}
+#LOGIN{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 40px;
+  color: #ffffff;
+  /*Youcanchangethiscolortoyourpreferredone*/transition: background-color 0.3s ease;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+#LOGIN:hover {
+  background-color: #576873; /* You can change this color to your preferred hover color */
+}
+button:hover {
+  background-color: #60707b; /* You can change this color to your preferred hover color */
+}
+.logo-img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add some spacing to the right of the logo */
+}
+.menu-container {
+  display: flex;
+  align-items: center;
+ margin-right: 100px;
+}
+
+.menu-item {
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.menu-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.submenu {
+  z-index: 999;
+  border: 2px solid rgb(0, 0, 255);
+  display: none;
+  position: absolute;
+  width: 300px;
+  height: auto;
+  top: 100%;
+  left: 0;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  min-width: 120px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submenu-item {
+  padding: 10px;
+  white-space: nowrap;
+  transition: background-color 0.3s;
+}
+
+.submenu-item:hover {
+  background-color: #777;
+}
+
+.menu-item:hover .submenu {
+  display: block;
+}

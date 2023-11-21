@@ -1,0 +1,90 @@
+.homeimage{
+    width: 100%;
+    overflow: hidden;
+    z-index: -1001;
+}
+
+/* BorderBox.css */
+
+.bobox {
+    position: relative;
+    z-index: 1; /* Set a higher z-index to bring it above other elements */
+  }
+  
+  .border-box {
+    margin-left: 100px;
+    width: 600px;
+    margin-top: -30rem;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    padding: 20px;
+    position: relative;
+    z-index: 0; /* Set a lower z-index to keep it below other elements */
+  }
+  .iconit{
+    width: 50px;
+  }
+  .top-icons {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+  }
+  .image-title{
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .content {
+    text-align: center;
+  }
+  
+  .title {
+    color: #333;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+
+  }
+  
+  .input {
+    margin-left: 50px;
+    width:500px; /* Adjust width as needed */
+    padding: 8px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .border-line {
+    border: none;
+    border-top: 1px solid #ddd;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .left-button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #1d1f1d; /* Green color, change as needed */
+    color: white;
+    border-radius: 5px;
+  }
+  .right-button {
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #9fa59f; /* Green color, change as needed */
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+  
